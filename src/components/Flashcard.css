@@ -1,0 +1,23 @@
+.container {
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    height: 20em;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.picture {
+    width: 10vh;
+    height: 10vh;
+    border: 3px solid black;
+    margin-bottom: 5px;
+}
+
